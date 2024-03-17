@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart'
+import 'package:flutter/material.dart';
 // provides widgets for building the UI
 
 void main()
@@ -12,8 +12,7 @@ class MyApp extends StatelessWidget
 {
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
+    return MaterialApp();
   }
   
 }
