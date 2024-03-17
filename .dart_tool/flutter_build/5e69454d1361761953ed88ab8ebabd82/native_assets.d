@@ -1,0 +1,1 @@
+ C:\\Users\\divya\\OneDrive\\Desktop\\Sem_8\\Capstone\ Sem\ 8\\Residenzia\\.dart_tool\\flutter_build\\5e69454d1361761953ed88ab8ebabd82\\native_assets.yaml: 
