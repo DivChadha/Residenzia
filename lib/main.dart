@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 // provides widgets for building the UI
+import 'package:residenzia/screen/home/home.dart';
 
 void main()
 {
@@ -13,12 +14,17 @@ class MyApp extends StatelessWidget
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home : Scaffold(
-        body : Center(
-          child: Text('HomePage'),
-          )
-      )
-    );
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        scaffoldBackgroundColor: Color(0xFFF5F6F6),
+        primaryColor: Color(0xFF811B83),
+        colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Color(0xFFFa5019)),
+        textTheme : TextTheme(
+          displayLarge : TextStyle (color: Color(0xFF100E34),
+        ),
+        bodyLarge : TextStyle(color :  Color(0xFF100E34).withOpacity(0.5)),
+        )),
+      home : HomePage());
   }
   
 }
