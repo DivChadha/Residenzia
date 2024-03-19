@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:residenzia/screen/home/widget/best_offer.dart';
+import 'package:residenzia/screen/home/widget/categories.dart';
 import 'package:residenzia/screen/home/widget/custom_app_bar.dart';
+import 'package:residenzia/screen/home/widget/welcome_text.dart';
+import 'package:residenzia/screen/home/widget/search_input.dart';
+import 'package:residenzia/screen/home/widget/recommended_house.dart';
 
 class HomePage extends StatelessWidget{
 
@@ -9,8 +14,16 @@ class HomePage extends StatelessWidget{
     return Scaffold(
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       appBar: CustomAppBar(),
-      body : Container(
-      child: Center(child: Text('Home')),
+      body : SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+          WelcomeText(),
+          SearchInput(),
+          Categories(),
+          RecommendedHouse(),
+          BestOffer()
+        ],)
       ),
     );
   }
