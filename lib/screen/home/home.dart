@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:residenzia/screen/home/widget/best_offer.dart';
 import 'package:residenzia/screen/home/widget/categories.dart';
+import 'package:residenzia/screen/home/widget/chat.dart';
 import 'package:residenzia/screen/home/widget/custom_app_bar.dart';
 import 'package:residenzia/screen/home/widget/welcome_text.dart';
 import 'package:residenzia/screen/home/widget/search_input.dart';
@@ -22,7 +23,9 @@ class HomePage extends StatelessWidget{
           SearchInput(),
           Categories(),
           RecommendedHouse(),
-          BestOffer()
+          BestOffer(),
+          Chat(),
+        
         ],)
       ),
     );
