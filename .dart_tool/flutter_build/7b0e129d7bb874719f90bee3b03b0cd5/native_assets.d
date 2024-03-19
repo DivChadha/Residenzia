@@ -1,0 +1,1 @@
+ C:\\Users\\user\\Documents\\GitHub\\Residenzia\\.dart_tool\\flutter_build\\7b0e129d7bb874719f90bee3b03b0cd5\\native_assets.yaml: 

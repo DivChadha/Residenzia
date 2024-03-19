@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 // provides widgets for building the UI
-import 'package:residenzia/screen/home/home.dart';
+// import 'package:residenzia/screen/home/home.dart';
+import 'package:residenzia/screen/home_screen.dart';
 
 void main()
 {
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget
         ),
         bodyLarge : TextStyle(color :  Color(0xFF100E34).withOpacity(0.5)),
         )),
-      home : HomePage());
+      home : homeScreen());
   }
   
 }
