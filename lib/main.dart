@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 // provides widgets for building the UI
 import 'package:residenzia/screen/home/home.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 
 void main()
 {
